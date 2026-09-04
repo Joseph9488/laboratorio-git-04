@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram id="diag1" name="CdU1 - Solicitud de Paquete">
+    <mxGraphModel dx="1404" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="360" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=13;strokeColor=#000000;fillColor=none;spacingTop=8;" value="Sistema de Logística de Drones" vertex="1">
+          <mxGeometry height="260" width="420" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="main" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=12;" value="Solicitud de Paquete" vertex="1">
+          <mxGeometry height="100" width="320" x="330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="actorL" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="actorR" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Coordinador" vertex="1">
+          <mxGeometry height="60" width="30" x="760" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="actorL" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="main">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="actorR" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="main">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

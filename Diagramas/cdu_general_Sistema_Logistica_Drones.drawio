@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram id="diag1" name="Diagrama General - Sistema de Logística de Drones">
+    <mxGraphModel dx="1404" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=12;" value="Solicitud de Paquete" vertex="1">
+          <mxGeometry height="100" width="340" x="320" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=12;" value="Asignar Dron" vertex="1">
+          <mxGeometry height="100" width="340" x="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=12;" value="Vuelo" vertex="1">
+          <mxGeometry height="100" width="340" x="320" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=12;" value="Registro Completo" vertex="1">
+          <mxGeometry height="100" width="340" x="320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aCliente" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="aCoordinador" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Coordinador" vertex="1">
+          <mxGeometry height="60" width="30" x="780" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aOperador" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Operador" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="aLogistica" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Personal de Logística" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aGerente" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1;fontSize=12;" value="Gerente" vertex="1">
+          <mxGeometry height="60" width="30" x="780" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="aCliente" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="aCliente" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="aCoordinador" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="aCoordinador" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="aCoordinador" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="aOperador" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="aLogistica" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="aGerente" style="endArrow=none;html=1;strokeColor=#000000;fontSize=11;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
